@@ -1,0 +1,8 @@
+type = "agent"
+
+[runtime]
+generation = "mk3"
+memory = 4096
+
+[env]
+MY_NON_SENSITIVE_ENV = "MY_NON_SENSITIVE_ENV"
