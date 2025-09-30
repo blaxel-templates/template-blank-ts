@@ -9,6 +9,10 @@ async function main() {
   console.info("Booting up...");
   const app = Fastify();
 
+  app.addHook("onRequest", async (request, reply) => {
+    console.info(`${request.method} ${request.url}`);
+  });
+
   // You can start developing your agent from this endpoint
   // You are not limited to this endpoint, you can create as many as you want
   app.post<{ Body: RequestBody }>("/", async (request, reply) => {
