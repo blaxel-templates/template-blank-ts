@@ -9,8 +9,12 @@ async function main() {
   console.info("Booting up...");
   const app = Fastify();
 
-  app.addHook("onRequest", async (request, reply) => {
-    console.info(`${request.method} ${request.url}`);
+  app.addHook("onResponse", async (request, reply) => {
+    console.info(`${request.method} ${request.url} ${reply.statusCode} ${Math.round(reply.elapsedTime)}ms`);
+  });
+
+  app.addHook("onError", async (request, reply, error) => {
+    console.error(error);
   });
 
   // You can start developing your agent from this endpoint
