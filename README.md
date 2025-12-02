@@ -96,8 +96,8 @@ bl serve --hotreload
 The server listens on the host and port provided by Blaxel, already implemented in `src/index.ts`:
 
 ```ts
-const port = parseInt(process.env.BL_SERVER_PORT || "80");
-const host = process.env.BL_SERVER_HOST || "0.0.0.0";
+const port = parseInt(process.env.PORT || "80");
+const host = process.env.HOST || "0.0.0.0";
 ```
 
 ### Testing your agent

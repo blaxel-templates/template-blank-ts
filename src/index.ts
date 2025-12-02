@@ -19,8 +19,8 @@ async function main() {
     return reply.send("Hello World");
   });
 
-  const port = parseInt(process.env.BL_SERVER_PORT || "80");
-  const host = process.env.BL_SERVER_HOST || "0.0.0.0";
+  const port = parseInt(process.env.PORT || "80");
+  const host = process.env.HOST || "0.0.0.0";
 
   await app.listen({ port, host });
   console.info(`Server is running on port ${host}:${port}`);
