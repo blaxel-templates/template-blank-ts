@@ -13,8 +13,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@blaxel/core": "0.3.30",
-    "@blaxel/telemetry": "0.3.30",
+    "@blaxel/core": "0.3.31",
+    "@blaxel/telemetry": "3.0.5",
     "fastify": "^5.3.2"
   },
   "devDependencies": {
