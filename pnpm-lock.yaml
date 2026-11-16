@@ -14,8 +14,8 @@ importers:
   .:
     dependencies:
       '@blaxel/core':
-        specifier: 0.3.31
-        version: 0.3.31(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)
+        specifier: 0.3.39
+        version: 0.3.39(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)
       '@blaxel/telemetry':
         specifier: 3.0.5
         version: 3.0.5(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)(zod@4.6.7)
@@ -90,8 +90,8 @@ packages:
     resolution: {integrity: sha512-cmG40u10QFEUrYXWYom6Lo6DLR+pND3wWABTTT9Nf7zg9F7BD46KNj+STekndp9Kg5ZAIPA0WxmTI0IwRvKvvQ==}
     engines: {node: '>=18'}
 
-  '@blaxel/core@0.3.31':
-    resolution: {integrity: sha512-8acw0F4K+EETUtxt3eGZoQ+Xm1KsRdQGJiV1FT45ZsQiaSaF3SCdNpjEmKCWGyJ3M0ir/ACJyOxy1AUYni7NbQ==}
+  '@blaxel/core@0.3.39':
+    resolution: {integrity: sha512-8oN0wYQxzWriPXu8EnMwKXo4LHjBNVdse9B8u9zotplbsts9YUrqBrIG6WYlNBDswvkwzVk222GVM622fEzRxQ==}
     engines: {node: '>=18'}
 
   '@blaxel/core@3.0.5':
@@ -1679,7 +1679,7 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@blaxel/core@0.3.31(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)':
+  '@blaxel/core@0.3.39(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(debug@4.4.3)':
     dependencies:
       '@hey-api/client-fetch': 0.10.2(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
       '@modelcontextprotocol/sdk': 1.32.1(zod@4.6.7)
